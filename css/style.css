@@ -168,7 +168,7 @@ header nav li ul:last-child {
 
     letter-spacing: .2rem;
 
-    opacity: .1;
+    opacity: .05;
 
     margin-left: 10vw;
     margin-right: 10vw;
@@ -345,8 +345,7 @@ header nav li ul:last-child {
     border-radius: 1.2rem;
 
     box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.39);
-    background-color: var(--cor1);
-
+    background-color: rgba(206, 218, 242, 0.6);
 
     width: 21vw;
 
@@ -430,7 +429,7 @@ header nav li ul:last-child {
 }
 
 .project_card__link___button {
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(211, 211, 211);
     color: var(--cor5);
     cursor: pointer;
     font-family: var(--font-secundaria);
@@ -495,7 +494,7 @@ header nav li ul:last-child {
     color: var(--cor4);
 
     font-family: var(--font-secundaria);
-    font-size: 2rem;
+    font-size: 1.4rem;
 
     display: flex;
     align-items: center;
@@ -504,7 +503,7 @@ header nav li ul:last-child {
 }
 
 .skill_div__list__card___image {
-    width: 2.4rem;
+    width: 2rem;
     margin-right: .6rem;
 }
 
@@ -517,8 +516,6 @@ header nav li ul:last-child {
     background-color: var(--cor6);
     height: .4rem;
     width: 10%;
-
-    
 }
 
 .incomplete {
