@@ -170,8 +170,8 @@ header nav li ul:last-child {
 
     opacity: .05;
 
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .transition_container {
@@ -523,4 +523,49 @@ header nav li ul:last-child {
     opacity: 0.4;
 
     border-right: .2rem solid black;
+}
+
+/*====== FOOTER======*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 6rem;
+    width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    background-color: var(--cor6);
+}
+
+.footer_name {
+    color: white;
+    font-family: var(--font-padrao);
+    font-weight: 600;
+}
+
+.footer_social a{
+    color: white;
+    margin-left: 2rem;
+    
+}
+
+.footer_social i{
+    border: 1px solid white;
+    border-radius: 100%;
+
+    font-size: 1.2rem;
+
+    padding: .4rem .5rem .4rem .5rem;
+
+    transition: .5s;
+}
+
+.footer_social i:hover {
+    background-color: white;
+    color: var(--cor6);
+
 }
