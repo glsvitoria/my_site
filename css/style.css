@@ -31,7 +31,7 @@ body {
     padding-right: 10vw;
     padding-left: 10vw;
 
-    margin: 6rem 0 6rem 0;
+    margin: 3rem 0 3rem 0;
 }
 
 nav.container {
@@ -61,7 +61,7 @@ header nav {
     justify-content: space-between;
 
     width: 100vw;
-    height: 6rem;
+    height: 5rem;
 
     color: var(--cor6);
     font-family: var(--font-padrao);
@@ -109,7 +109,7 @@ header nav li ul:last-child {
     align-items: center;
     justify-content: space-between;
 
-    margin-top: 9rem;
+    padding-top: 6rem;
 }
 
 .home_avatar {
@@ -251,6 +251,8 @@ header nav li ul:last-child {
     font-family: var(--font-padrao);
 
     position: relative;
+
+    padding-top: 6rem;
 }
 
 .about_avatar {
@@ -343,6 +345,8 @@ header nav li ul:last-child {
     margin-bottom: 6rem;
 
     color: black;
+
+    padding-top: 6rem;
 }
 
 .div_cards {
@@ -466,6 +470,9 @@ header nav li ul:last-child {
 }
 
 /*====== SKILLS ======*/
+.skill {
+    padding-top: 6rem;
+}
 
 .skill_div {
     display: flex;
