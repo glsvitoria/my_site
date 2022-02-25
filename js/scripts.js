@@ -1,6 +1,5 @@
 /* Mudar o header da página quando der scroll */
 const header = document.querySelector("#header")
-console.log(header)
 const navHeight = header.offsetHeight
 function changeHeaderWhenScroll(){
     if(window.scrollY >= navHeight){

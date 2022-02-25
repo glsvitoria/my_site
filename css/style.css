@@ -189,6 +189,8 @@ header nav li ul:last-child {
 
     margin-left: 15vw;
     margin-right: 15vw;
+
+    padding-top: 6rem;
 }
 
 .transition_container {
@@ -329,7 +331,7 @@ header nav li ul:last-child {
     background-size: contain;
 
     width: 80vw;
-    height: 100%;
+    height: 84%;
 
     position: absolute;
 
