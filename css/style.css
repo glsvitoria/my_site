@@ -622,3 +622,18 @@ header nav li ul:last-child {
     opacity: 1;
     transform: translateY(0);
 }
+
+/*-------- SCROLL BAR --------*/
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--cor5);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--cor6);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--cor5);  /* creates padding around scroll thumb */
+  }
