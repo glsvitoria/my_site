@@ -479,10 +479,12 @@ header nav li ul:last-child {
 .skill_div {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .skill_div > div {
     width: 45%;
+
 }
 
 .skill_div__title {
@@ -498,39 +500,65 @@ header nav li ul:last-child {
 
 .skill_div__list {
     background-color: var(--cor1);
-    opacity: 0.6;
     border-radius: 2rem;
 
-    padding: 2rem;
+    padding: 1rem;
 
     list-style-type: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.39);
 }
 
-.skill_div__list___card:first-child {
-    margin-top: 0;
+.skill_div__list___2 {
+    background-color: var(--cor1);
+    border-radius: 2rem;
+
+    padding: 1rem;
+
+    list-style-type: none;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.39);
 }
 
 .skill_div__list___card {
-    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 
-    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.skill_div__list___card____2 {
+    width: auto;
+
+    padding: .8rem;
+
+    opacity: .8;
 }
 
 .skill_div__list___card____name {
-    color: var(--cor4);
-
-    font-family: var(--font-secundaria);
-    font-size: 1.4rem;
-
-    display: flex;
-    align-items: center;
-
-    margin-bottom: .4rem;
+    margin-bottom: .5rem;
+    font-family: var(--font-padrao);
+    font-size: 1rem;
 }
 
 .skill_div__list__card___image {
-    width: 2rem;
-    margin-right: .6rem;
+    width: 4rem;
+
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.skill_div__list__card___image:hover {
+    opacity: 1;
+    cursor: pointer;
+
+    transform: scale(1.2);
 }
 
 .skill_div__list___card____progress {
