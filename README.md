@@ -27,7 +27,7 @@
  3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
 ### Screenshot => Ainda em desenvolvimento
-![](./public/images/Screenshot.png)
+![](./images/Screenshot.png)
 ### Links
 - Site hospedado: [Glsvitoria Website](https://glsvitoria.github.io/my_site/)
 
