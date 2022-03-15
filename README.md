@@ -26,8 +26,8 @@
  2. Clone o projeto com `git clone https://github.com/glsvitoria/my_site`
  3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
-### Screenshot => Ainda em desenvolvimento
-![](./images/Screenshot.png)
+### Screenshot
+![](./images/Screenshot.PNG)
 ### Links
 - Site hospedado: [Glsvitoria Website](https://glsvitoria.github.io/my_site/)
 
