@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?8nv178');
-  src:  url('fonts/icomoon.eot?8nv178#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?8nv178') format('truetype'),
-    url('fonts/icomoon.woff?8nv178') format('woff'),
-    url('fonts/icomoon.svg?8nv178#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ounng1');
+  src:  url('fonts/icomoon.eot?ounng1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ounng1') format('truetype'),
+    url('fonts/icomoon.woff?ounng1') format('woff'),
+    url('fonts/icomoon.svg?ounng1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,21 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e903";
-}
 .icon-github:before {
-  content: "\e900";
-}
-.icon-linkedin:before {
-  content: "\e901";
-}
-.icon-chevrons-up:before {
   content: "\e902";
 }
-.icon-menu:before {
-  content: "\e9bd";
+.icon-linkedin:before {
+  content: "\e909";
 }
-.icon-cross:before {
-  content: "\ea0f";
+.icon-instagram:before {
+  content: "\e903";
 }
