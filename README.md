@@ -27,7 +27,7 @@
  3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
 ### Screenshot
-![](./images/Screenshot.PNG)
+![](./public/images/Screenshot.PNG)
 ### Links
 - Site hospedado: [Glsvitoria Website](https://glsvitoria.github.io/my_site/)
 
@@ -40,7 +40,7 @@
 [<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />](https://github.com/glsvitoria)
 [<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />](https://github.com/glsvitoria)
 [<img src="https://img.shields.io/badge/Handlebars.js-f0772b?style=for-the-badge&logo=handlebarsdotjs&logoColor=black" />](https://github.com/glsvitoria)
-[<img src="https://img.shields.io/badge/Handlebars.js-f0772b?style=for-the-badge&logo=handlebarsdotjs&logoColor=black" />](https://github.com/glsvitoria)
+
 
 ### Continuação do desenvolvimento
   - Manter a navegação fixa no topo da tela
