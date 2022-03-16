@@ -8,12 +8,11 @@
   "dependencies": {
     "body-parser": "^1.19.2",
     "express": "^4.17.3",
-    "express-handlebars": "^6.0.3",
-    "sequelize": "^6.17.0"
+    "express-handlebars": "^6.0.3"
   },
   "scripts": {
-     "dev": "nodemon app.js",
-     "start": "node app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
