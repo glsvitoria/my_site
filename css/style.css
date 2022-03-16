@@ -170,7 +170,7 @@ nav.container {
 }
 
 .home_avatar {
-   background-image: url('../images/meu_avatar.svg');
+   background-image: url('../assets/images/meu_avatar.svg');
    
 }
 
@@ -265,27 +265,27 @@ nav.container {
 }
 
 .image_javascript {
-   background-image: url('../images/javascript_logo.svg');
+   background-image: url('../assets/images/javascript_logo.svg');
 }
 
 .image_html {
-   background-image: url('../images/html_logo.svg');
+   background-image: url('../assets/images/html_logo.svg');
 }
 
 .image_css {
-   background-image: url('../images/css_logo.svg');
+   background-image: url('../assets/images/css_logo.svg');
 }
 
 .image_git {
-   background-image: url('../images/git_logo.svg');
+   background-image: url('../assets/images/git_logo.svg');
 }
 
 .image_github {
-   background-image: url('../images/github_logo.svg');
+   background-image: url('../assets/images/github_logo.svg');
 }
 
 .image_react {
-   background-image: url('../images/react_logo.svg');
+   background-image: url('../assets/images/react_logo.svg');
 }
 
 .image_bootstrap {
@@ -312,7 +312,7 @@ nav.container {
 }
 
 .about_avatar {
-   background-image: url('../images/meu_avatar_2.svg');
+   background-image: url('../assets/images/meu_avatar_2.svg');
 }
 
 .about_description {  
