@@ -29,7 +29,7 @@
 ### Screenshot
 ![](./public/images/Screenshot.PNG)
 ### Links
-- Site hospedado: [Glsvitoria Website](https://glsvitoria.github.io/my_site/)
+- Site hospedado: [Glsvitoria Website](https://glsvitoria.herokuapp.com)
 
 ## Processo
 
