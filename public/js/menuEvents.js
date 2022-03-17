@@ -29,8 +29,6 @@ class MobileNavbar {
       for(let line of lines){
          line.classList.toggle('white')
       }
-
-      
    }
 
    goToSection() {
