@@ -58,19 +58,27 @@ html {
 
 body {
    background-color: var(--background);
+
+   width: 100vw;
 }
 
 .container {
    padding-right: 10vw;
    padding-left: 10vw;
 
-   margin: 3rem 0 3rem 0;
+   margin: 3rem auto 3rem auto;
 
    padding-top: 6rem;
+
+   max-width: 1700px;
 }
 
 nav.container {
    margin: 0;
+}
+
+footer.container, nav.container  {
+   max-width: initial;
 }
 
 #header {
@@ -266,6 +274,7 @@ nav.container {
    padding: 4rem;
 
    width: 45vw;
+   max-width: 800px;
 }
 
 .home_description__subtitle {
@@ -458,20 +467,6 @@ nav.container {
 .project_title__span,
 .skill_title__span {
    color: var(--section_title);
-}
-
-.about_image {
-   background-image: url('https://i.pinimg.com/736x/9e/a4/07/9ea407824655633012e9b7e46993147d.jpg');
-   background-size: contain;
-
-   width: 80vw;
-   height: 84%;
-
-   position: absolute;
-
-   opacity: 0.05;
-
-   z-index: -1;
 }
 
 /*====== PROJECTS ======*/
