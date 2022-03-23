@@ -5,7 +5,7 @@
 
 ## Um pouco do Projeto:
 
-➡ Meu site próprio para poder divulgar meu projetos, falar um pouco sobre mim e tudo em um lugar só
+➡ Meu site pessoal para poder divulgar meu portifólio, falar um pouco sobre mim e tudo em um lugar só
 
 ## Conteúdos
 
