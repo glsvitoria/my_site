@@ -54,6 +54,18 @@
 
 html {
    scroll-behavior: smooth;
+   overflow-x: hidden;
+}
+
+@media (max-width: 1080px) {
+   html {
+      font-size: 93.75%;
+   }
+}
+@media (max-width: 720px) {
+   html {
+      font-size: 87.5%;
+   }
 }
 
 body {
@@ -493,6 +505,7 @@ footer.container, nav.container  {
    background-color: var(--card_bg);
 
    width: 21vw;
+   max-width: 20rem;
 
    margin: 0 auto;
    padding: 1rem;
@@ -597,12 +610,17 @@ footer.container, nav.container  {
 
 /*====== SKILLS ======*/
 .skill_container {
-   display: flex;
-   justify-content: space-between;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 .skill_container > div {
-   width: 45%;
+   width: 90%;
+   
+}
+
+.skill_container__soft {
+   margin-top: 2rem;
 }
 
 .skill_container__title {
@@ -820,6 +838,14 @@ body::-webkit-scrollbar-thumb {
       padding: 2rem;
    }
 
+   .div_cards {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .project_card {
+      width: 100%;
+   }
+
    .home_description__title {
       font-size: 4rem;
       line-height: 4.2rem;
@@ -921,8 +947,7 @@ body::-webkit-scrollbar-thumb {
    }
 
    .project_card {
-      width: 25vw;
-      padding: 1rem;
+      width: 80%;
    }
 
    .project_card__image {
@@ -947,11 +972,6 @@ body::-webkit-scrollbar-thumb {
       height: 1.6rem;
    }
 
-   .skill_container > div.skill_container__frontend {
-      width: 40%;
-      margin-left: 5%;
-   }
-
    .skill_container__list {
       padding: 0.4rem;
    }
@@ -970,11 +990,6 @@ body::-webkit-scrollbar-thumb {
 
    .skill_container__list___card____progress_____bar {
       height: 0.2rem;
-   }
-
-   .skill_container > div.skill_container__soft {
-      width: 40%;
-      margin-right: 5%;
    }
 
    .footer {
@@ -1000,10 +1015,10 @@ body::-webkit-scrollbar-thumb {
 
    .nav_list {
       position: absolute;
-      top: 8vh;
+      top: 7vh;
       right: 0;
       width: 100vw;
-      height: 92vh;
+      height: 93vh;
 
       background-color: #023535;
 
@@ -1172,15 +1187,6 @@ body::-webkit-scrollbar-thumb {
 
    .about_image {
       height: 80%;
-   }
-
-   .div_cards {
-      grid-template-columns: 1fr 1fr;
-   }
-
-   .project_card {
-      width: 40vw;
-      padding: 1rem 0.6rem 1rem 0.6rem;
    }
 
    .project_card__image {
